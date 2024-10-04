@@ -1,0 +1,177 @@
+@font-face {
+  font-family: "DM-Sans-Regular";
+  src: url("./assets/fonts/DMSans-Regular.ttf");
+}
+@font-face {
+  font-family: "DM-Sans-Bold";
+  src: url("./assets/fonts/DMSans-Bold.ttf");
+}
+.heading-xl {
+  font-family: DM-Sans-Bold;
+  font-size: 2.667rem;
+}
+
+.heading-l {
+  font-family: DM-Sans-Bold;
+  font-size: 1.778rem;
+}
+
+.body-bold {
+  font-family: DM-Sans-Bold;
+  font-size: 1rem;
+}
+
+.mini-caption {
+  font-family: DM-Sans-Regular;
+  font-size: 0.833rem;
+  color: #92857A;
+}
+
+@font-face {
+  font-family: "DM-Sans-Regular";
+  src: url("./assets/fonts/DMSans-Regular.ttf");
+}
+@font-face {
+  font-family: "DM-Sans-Bold";
+  src: url("./assets/fonts/DMSans-Bold.ttf");
+}
+.heading-xl {
+  font-family: DM-Sans-Bold;
+  font-size: 2.667rem;
+}
+
+.heading-l {
+  font-family: DM-Sans-Bold;
+  font-size: 1.778rem;
+}
+
+.body-bold {
+  font-family: DM-Sans-Bold;
+  font-size: 1rem;
+}
+
+.mini-caption {
+  font-family: DM-Sans-Regular;
+  font-size: 0.833rem;
+  color: #92857A;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 2.222rem;
+  color: #FFFFFF;
+  background-color: #EC755D;
+  border-radius: 0.556rem;
+}
+.header > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.444rem;
+}
+
+@font-face {
+  font-family: "DM-Sans-Regular";
+  src: url("./assets/fonts/DMSans-Regular.ttf");
+}
+@font-face {
+  font-family: "DM-Sans-Bold";
+  src: url("./assets/fonts/DMSans-Bold.ttf");
+}
+.heading-xl {
+  font-family: DM-Sans-Bold;
+  font-size: 2.667rem;
+}
+
+.heading-l {
+  font-family: DM-Sans-Bold;
+  font-size: 1.778rem;
+}
+
+.body-bold {
+  font-family: DM-Sans-Bold;
+  font-size: 1rem;
+}
+
+.mini-caption {
+  font-family: DM-Sans-Regular;
+  font-size: 0.833rem;
+  color: #92857A;
+}
+
+.chart-box {
+  background-color: #FFFBF6;
+  border-radius: 10.008px;
+  padding: 2.222rem;
+  color: #92857A;
+}
+.chart-box .heading-xl,
+.chart-box .heading-l,
+.chart-box .body-bold {
+  color: #382314;
+}
+.chart-box .heading-l {
+  margin-bottom: 66.006px;
+}
+.chart-box .chart {
+  display: flex;
+  width: 100%;
+  align-items: flex-end;
+  gap: 18px;
+}
+.chart-box .chart .chart-item {
+  flex: 1;
+}
+.chart-box .chart .chart-item .bar {
+  background-color: #EC755D;
+  margin-bottom: 0.444rem;
+  border-radius: 0.278rem;
+}
+.chart-box .chart .chart-item .bar.highlight {
+  background-color: #76B5BC;
+}
+.chart-box .chart .chart-item .day {
+  text-align: center;
+}
+.chart-box hr {
+  border: 0.056rem solid #F8E9DD;
+  margin: 32.004px 0;
+}
+.chart-box .chart-info {
+  display: flex;
+  justify-content: space-between;
+}
+.chart-box .chart-info > div {
+  display: flex;
+  flex-direction: column;
+}
+.chart-box .chart-info > div:last-child {
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F8E9DD;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "DM-Sans-Regular";
+  font-size: 18px;
+  padding: 16px;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+  max-width: 540px;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,17 @@
+@import './../../vars.scss';
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2.222rem;
+    color: $white;
+    background-color: $red;
+    border-radius: .556rem;
+
+    >div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: .444rem;
+    }
+}

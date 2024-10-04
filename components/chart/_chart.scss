@@ -1,0 +1,63 @@
+@import './../../vars.scss';
+
+.chart-box {
+    background-color: $card-white;
+    border-radius: 10.008px;
+    padding: 2.222rem;
+    color: $medium-brown;
+
+    .heading-xl,
+    .heading-l,
+    .body-bold {
+        color: $dark-brown;
+    }
+
+    .heading-l {
+        margin-bottom: 66.006px;
+    }
+
+    .chart {
+        display: flex;
+        width: 100%;
+        align-items: flex-end;
+        gap: 18px;
+
+        .chart-item {
+            flex: 1;
+
+            .bar {
+                background-color: $red;
+                margin-bottom: .444rem;
+                border-radius: .278rem;
+
+                &.highlight {
+                    background-color: $cyan;
+                }
+            }
+
+            .day {
+                text-align: center;
+            }
+        }
+    }
+
+    hr {
+        border: .056rem solid $cream-bg;
+        margin: 32.004px 0;
+    }
+
+    .chart-info {
+        display: flex;
+        justify-content: space-between;
+
+        >div {
+            display: flex;
+            flex-direction: column;
+
+            &:last-child {
+                align-items: flex-end;
+                justify-content: flex-end;
+            }
+        }
+    }
+}

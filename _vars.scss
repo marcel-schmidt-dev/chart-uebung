@@ -1,0 +1,38 @@
+$white: #FFFFFF;
+$card-white: #FFFBF6;
+$cream-bg: #F8E9DD;
+$medium-brown: #92857A;
+$dark-brown: #382314;
+$cyan: #76B5BC;
+$red: #EC755D;
+
+@font-face {
+    font-family: 'DM-Sans-Regular';
+    src: url('./assets/fonts/DMSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'DM-Sans-Bold';
+    src: url('./assets/fonts/DMSans-Bold.ttf');
+}
+
+.heading-xl {
+    font-family: DM-Sans-Bold;
+    font-size: 2.667rem;
+}
+
+.heading-l {
+    font-family: DM-Sans-Bold;
+    font-size: 1.778rem;
+}
+
+.body-bold {
+    font-family: DM-Sans-Bold;
+    font-size: 1rem;
+}
+
+.mini-caption {
+    font-family: DM-Sans-Regular;
+    font-size: .833rem;
+    color: $medium-brown;
+}
